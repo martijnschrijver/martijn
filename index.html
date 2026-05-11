@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Martijn Schrijver</title>
+
+<!-- Google Font: Caveat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* ===== Reset ===== */
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+    margin:0;
+}
+
+html,body{
+    height:100%;
+    background:#000;
+    color:#fff;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+}
+
+/* ===== Layout ===== */
+.wrapper{
+    min-height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.card{
+    width:min(800px,100%);
+    text-align:center;
+    padding:70px 40px 80px;
+    background:linear-gradient(260deg,#5f6062 0%,#000 14%,#000 100%);
+    box-shadow:0 0 40px #000;
+	border-radius:40px
+}
+
+/* ===== Typography ===== */
+h1{
+    font-family:'Caveat', cursive;
+    font-weight:600;
+    font-size:clamp(2.8rem,6vw,3.8rem);
+    letter-spacing:.04em;
+    transform:rotate(-2deg);
+    margin-bottom:12px;
+}
+
+.description{
+    color:#bdbdbd;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+/* ===== Links ===== */
+a{
+    color:#bdbdbd;
+    text-decoration:none;
+    border-bottom:1px dotted currentColor;
+    transition:.3s ease;
+}
+
+a:hover{
+    color:#fff;
+    border-color:#fff;
+}
+
+</style>
+</head>
+
+<body>
+
+<main class="wrapper">
+    <section class="card">
+
+        <h1>Martijn Schrijver</h1>
+
+        <p class="description">
+            Designer
+        </p>
+
+        <p>
+            <a href="https://www.martijnschrijver.com" target="_blank">
+                martijnschrijver.com
+			</a>&nbsp;
+            <a href="https://www.trefreclame.nl" target="_blank">tref</a>
+        </p>
+
+    </section>
+</main>
+
+</body>
+</html>
